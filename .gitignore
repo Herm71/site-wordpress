@@ -1,7 +1,5 @@
 /node_modules
 /vendor
-!/plugins
-/plugins/*
 !/themes/
 /themes/*
 !/themes/twentytwentyone/
