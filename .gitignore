@@ -1,8 +1,8 @@
 /node_modules
 /vendor
-!/themes/
-/themes/*
-!/themes/twentytwentyone/
+# !/themes/
+# /themes/*
+# !/themes/twentytwentyone/
 package-lock.json
 composer.lock
 style.css.map
