@@ -1,0 +1,17 @@
+{
+    "name": "site-wordpress",
+    "version": "0.0.1",
+    "description": "WordPress local development environment",
+    "main": "index.js",
+    "scripts": {
+        "wp-env": "wp-env"
+    },
+    "keywords": [
+        "wordpress"
+    ],
+    "author": "@Herm71",
+    "license": "ISC",
+    "devDependencies": {
+        "@wordpress/env": "^4.1.2"
+    }
+}

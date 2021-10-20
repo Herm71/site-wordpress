@@ -1,0 +1,8 @@
+{
+    "core": "WordPress/WordPress",
+    "mappings": {
+        "wp-content/plugins": "./plugins",
+        "wp-content/themes": "./themes"
+    },
+    "phpVersion": "7.4"
+}
