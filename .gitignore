@@ -1,8 +1,9 @@
 /node_modules
 /vendor
-/plugins/**
+!/plugins/
+/plugins/*
 !/themes/
-/themes/**
+/themes/*
 !/themes/twentytwentyone/
 package-lock.json
 composer.lock
