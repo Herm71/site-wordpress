@@ -1,8 +1,14 @@
 {
-    "core": "WordPress/WordPress",
+    "core": null,
     "mappings": {
         "wp-content/plugins": "./plugins",
+        "wp-content/mu-plugins": "./mu-plugins",
         "wp-content/themes": "./themes"
     },
-    "phpVersion": "7.4"
+    "plugins": ["WordPress/gutenberg"],
+    "themes": ["WordPress/theme-experiments", "WordPress/twentytwentyone"],
+    "phpVersion": "7.4",
+    "config": {
+        "FS_METHOD": "direct"
+    }
 }
