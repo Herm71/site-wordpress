@@ -1,12 +1,13 @@
 {
     "core": null,
+    "plugins": ["https://github.com/WordPress/gutenberg/releases/download/v11.8.0/gutenberg.zip"],
+    "themes": ["https://github.com/WordPress/theme-experiments/archive/refs/tags/tt1-blocks@0.4.7.zip"],
     "mappings": {
         "wp-content/plugins": "./plugins",
         "wp-content/mu-plugins": "./mu-plugins",
         "wp-content/themes": "./themes"
     },
-    "plugins": ["WordPress/gutenberg"],
-    "themes": ["WordPress/theme-experiments", "WordPress/twentytwentyone"],
+
     "phpVersion": "7.4",
     "config": {
         "FS_METHOD": "direct"
