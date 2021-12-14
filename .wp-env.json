@@ -1,6 +1,6 @@
 {
     "core": null,
-    "plugins": ["https://github.com/WordPress/gutenberg/releases/download/v11.8.0/gutenberg.zip"],
+    "plugins": ["https://github.com/WordPress/gutenberg/releases/download/v12.1.0/gutenberg.zip"],
     "themes": ["https://github.com/WordPress/theme-experiments/archive/refs/tags/tt1-blocks@0.4.7.zip"],
     "mappings": {
         "wp-content/plugins": "./plugins",
