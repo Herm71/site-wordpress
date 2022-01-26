@@ -1,6 +1,6 @@
 # [@Herm71](https://github.com/Herm71)'s WordPress WP-ENV Dev Environment
 
-This workflow assumes you have [Docker](https://www.docker.com/) and running and [npm](https://www.npmjs.com/) installed.
+This workflow assumes you have [Docker](https://www.docker.com/) running and [npm](https://www.npmjs.com/) installed.
 
 If [wp-env](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/) is not installed globally, the command `npm install` will install it locally and provide a `wp-env` script for running `wp-env`.
 
@@ -20,8 +20,8 @@ This setup maps `wp-content/themes` to a separate working directory outside this
 
 ## Install
 
-- clone this repo to a directory (eg., `wp-env-site-root/`)
-- enter directory and run command: `npm install` or `npm i`
+- clone this repo to a directory (eg., `wp-env-site-root/`) and `cd` into it
+- run command: `npm install` or `npm i`
 - edit `.wp-env.json` to add your dev theme directory as described [below](#edit-wp-env.json)
 - run command: `npm run wp-env start` (or simply `wp-env start` if you already have `wp-env` installed globally)
 - visit your new site at [http://localhost:8888/](http://localhost:8888/)
