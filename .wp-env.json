@@ -1,11 +1,11 @@
 {
-    "core": "WordPress/WordPress#master",
+    "core": "WordPress/WordPress",
     "plugins": [
       "https://downloads.wordpress.org/plugin/theme-check.20211203.zip",
       "https://downloads.wordpress.org/plugin/wordpress-importer.0.7.zip"
     ],
     "mappings": {
-        ".htaccess": "~/Projects/site-wordpress/.htaccess",
+        
         "wp-content/plugins": "./plugins",
         "wp-content/mu-plugins": "./mu-plugins",
         "wp-content/themes": "~/Projects/themes-wordpress"
@@ -13,6 +13,10 @@
 
     "phpVersion": "7.4",
     "config": {
-        "FS_METHOD": "direct"
+        "FS_METHOD": "direct",
+        "WP_MEMORY_LIMIT": "20M",
+        "WP_MAX_MEMORY_LIMIT": "15M",
+        "WP_UPLOAD_MAX_FILESIZE": "10M",
+        "WP_ALLOW_MULTISITE": "true"
     }
 }
