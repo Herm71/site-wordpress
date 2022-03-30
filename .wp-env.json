@@ -3,7 +3,7 @@
     "plugins": [
       "https://downloads.wordpress.org/plugin/theme-check.20211203.zip",
       "https://downloads.wordpress.org/plugin/wordpress-importer.0.7.zip",
-      "https://github.com/WordPress/gutenberg/releases/download/v12.8.1/gutenberg.zip",
+      "https://github.com/WordPress/gutenberg/releases/download/v12.9.0/gutenberg.zip",
       "https://downloads.wordpress.org/plugin/social-sharing-block.0.4.0.zip"
     ],
     "mappings": {
