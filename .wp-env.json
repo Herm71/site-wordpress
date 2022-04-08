@@ -7,19 +7,35 @@
       "https://downloads.wordpress.org/plugin/social-sharing-block.0.4.0.zip"
     ],
     "mappings": {
-        
         "wp-content/plugins": "./plugins",
         "wp-content/plugins/advanced-custom-fields-pro": "~/Projects/acf-plugin/advanced-custom-fields-pro",
-        "wp-content/mu-plugins": "./mu-plugins",
-        "wp-content/themes": "~/Projects/themes-wordpress"
+        "wp-content/plugins/ucsc-news-pattern": "~/Projects/plugins-wordpress/ucsc-news-pattern",
+        "wp-content/mu-plugins": "./mu-plugins"
     },
-
+    "env": {
+        "tests": {
+            "themes": [
+                "~/Projects/themes-wordpress/theme-ucscc/ucsc.zip"
+            ]
+        },
+        "development": {
+            ".htaccess": ".htaccess",
+            "themes": [
+                "~/Projects/themes-wordpress"
+            ],
+            "plugins": [
+                "https://downloads.wordpress.org/plugin/wordpress-importer.0.7.zip",
+                "https://github.com/WordPress/gutenberg/releases/download/v12.9.0/gutenberg.zip"
+            ]
+        }
+    },
     "phpVersion": "7.4",
     "config": {
         "FS_METHOD": "direct",
         "WP_MEMORY_LIMIT": "20M",
         "WP_MAX_MEMORY_LIMIT": "15M",
         "WP_UPLOAD_MAX_FILESIZE": "10M",
-        "WP_ALLOW_MULTISITE": "true"
+        "WP_ALLOW_MULTISITE": "true",
+        "WP_ENVIRONMENT_TYPE": "local"
     }
 }
