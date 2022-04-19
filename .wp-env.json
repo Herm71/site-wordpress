@@ -1,31 +1,28 @@
 {
     "core": "WordPress/WordPress#5.8.4",
     "plugins": [
-      "https://downloads.wordpress.org/plugin/theme-check.20211203.zip",
-      "https://downloads.wordpress.org/plugin/wordpress-importer.0.7.zip",
-      "https://github.com/WordPress/gutenberg/releases/download/v12.9.0/gutenberg.zip",
-      "https://downloads.wordpress.org/plugin/social-sharing-block.0.4.0.zip"
+        "https://downloads.wordpress.org/plugin/theme-check.20211203.zip",
+        "https://downloads.wordpress.org/plugin/wordpress-importer.0.7.zip",
+        "https://github.com/WordPress/gutenberg/releases/download/v12.9.0/gutenberg.zip",
+        "https://downloads.wordpress.org/plugin/social-sharing-block.0.4.0.zip",
+        "https://downloads.wordpress.org/plugin/user-switching.1.5.8.zip"
     ],
     "mappings": {
         "wp-content/plugins": "./plugins",
         "wp-content/plugins/advanced-custom-fields-pro": "~/Projects/acf-plugin/advanced-custom-fields-pro",
-        "wp-content/plugins/ucsc-news-pattern": "~/Projects/plugins-wordpress/ucsc-news-pattern",
+        "wp-content/plugins/ucsc-custom-functionality": "~/Projects/plugins-wordpress/ucsc-custom-functionality",
         "wp-content/mu-plugins": "./mu-plugins"
     },
     "env": {
         "tests": {
             "themes": [
-                "~/Projects/themes-wordpress/theme-ucscc/ucsc.zip"
+                "~/Projects/themes-wordpress/theme-ucsc/ucsc.zip"
             ]
         },
         "development": {
             ".htaccess": ".htaccess",
             "themes": [
-                "~/Projects/themes-wordpress"
-            ],
-            "plugins": [
-                "https://downloads.wordpress.org/plugin/wordpress-importer.0.7.zip",
-                "https://github.com/WordPress/gutenberg/releases/download/v12.9.0/gutenberg.zip"
+                "~/Projects/themes-wordpress/theme-ucsc"
             ]
         }
     },
