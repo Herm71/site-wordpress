@@ -23,7 +23,7 @@
         "development": {
             ".htaccess": ".htaccess",
             "themes": [
-                "~/Projects/themes-wordpress/theme-ucsc"
+                "~/Projects/themes-wordpress/ucsc-2022"
             ]
         }
     },
