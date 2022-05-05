@@ -1,5 +1,5 @@
 {
-    "core": "WordPress/WordPress#5.8.4",
+    "core": "WordPress/WordPress#5.9.3",
     "plugins": [
         "https://downloads.wordpress.org/plugin/theme-check.20211203.zip",
         "https://downloads.wordpress.org/plugin/wordpress-importer.0.7.zip",
