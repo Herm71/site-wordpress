@@ -13,6 +13,7 @@
         "wp-content/plugins/advanced-custom-fields-pro": "~/Projects/acf-plugin/advanced-custom-fields-pro",
         "wp-content/plugins/ucsc-custom-functionality": "~/Projects/plugins-wordpress/ucsc-custom-functionality",
         "wp-content/plugins/playground": "~/Projects/plugins-wordpress/playground",
+        "wp-content/plugins/ucsc-gutenberg-blocks": "~/Projects/plugins-wordpress/ucsc-gutenberg-blocks",
         "wp-content/mu-plugins": "./mu-plugins"
     },
     "env": {
