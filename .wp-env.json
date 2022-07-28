@@ -1,16 +1,15 @@
 {
-    "core": "WordPress/WordPress#6.0.0",
+    "core": null,
     "plugins": [
         "https://downloads.wordpress.org/plugin/theme-check.20211203.zip",
         "https://downloads.wordpress.org/plugin/wordpress-importer.0.7.zip",
-        "https://github.com/WordPress/gutenberg/releases/download/v13.4.0/gutenberg.zip",
         "https://downloads.wordpress.org/plugin/social-sharing-block.0.4.0.zip",
         "https://downloads.wordpress.org/plugin/user-switching.1.5.8.zip",
         "https://downloads.wordpress.org/plugin/icon-block.1.2.0.zip"
     ],
     "mappings": {
         "wp-content/plugins": "./plugins",
-        "wp-content/plugins/advanced-custom-fields-pro": "~/Projects/acf-plugin/advanced-custom-fields-pro",
+        "wp-content/plugins/advanced-custom-fields-pro": "~/Projects/plugins-wordpress/advanced-custom-fields-pro",
         "wp-content/plugins/ucsc-custom-functionality": "~/Projects/plugins-wordpress/ucsc-custom-functionality",
         "wp-content/plugins/playground": "~/Projects/plugins-wordpress/blackbird-playground",
         "wp-content/plugins/plugin-global-scripts": "~/Projects/plugins-wordpress/plugin-global-scripts",
