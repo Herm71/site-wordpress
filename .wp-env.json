@@ -3,8 +3,8 @@
     "plugins": [
         "https://downloads.wordpress.org/plugin/theme-check.20211203.zip",
         "https://downloads.wordpress.org/plugin/wordpress-importer.0.7.zip",
-        "https://downloads.wordpress.org/plugin/social-sharing-block.0.4.0.zip",
-        "https://downloads.wordpress.org/plugin/user-switching.1.5.8.zip",
+        "https://downloads.wordpress.org/plugin/social-sharing-block.0.5.0.zip",
+        "https://downloads.wordpress.org/plugin/user-switching.1.7.0.zip",
         "https://downloads.wordpress.org/plugin/icon-block.1.2.0.zip"
     ],
     "mappings": {
@@ -14,6 +14,7 @@
         "wp-content/plugins/playground": "~/Projects/plugins-wordpress/blackbird-playground",
         "wp-content/plugins/plugin-global-scripts": "~/Projects/plugins-wordpress/plugin-global-scripts",
         "wp-content/plugins/ucsc-gutenberg-blocks": "~/Projects/plugins-wordpress/ucsc-gutenberg-blocks",
+        "wp-content/plugins/formidable-forms": "~/Projects/plugins-wordpress/formidable-forms",
         "wp-content/mu-plugins": "./mu-plugins"
     },
     "env": {
