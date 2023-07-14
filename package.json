@@ -4,7 +4,11 @@
     "description": "WordPress local development environment",
     "main": "index.js",
     "scripts": {
-        "wp-env": "wp-env"
+        "wp-env": "wp-env",
+        "wp-env:start": "wp-env run start",
+        "wp-env:stop": "wp-env run stop",
+        "wp-env:clean": "wp-env run clean",
+        "wp-env:destroy": "wp-env run destroy",
     },
     "keywords": [
         "wordpress"
