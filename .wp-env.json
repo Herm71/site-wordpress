@@ -12,7 +12,7 @@
         "wp-content/plugins/ucsc-custom-functionality": "~/Projects/plugins-wordpress/ucsc-custom-functionality",
         "wp-content/plugins/ucsc-gutenberg-blocks": "~/Projects/plugins-wordpress/ucsc-gutenberg-blocks",
         "wp-content/plugins/gutenberg-examples": "~/Projects/plugins-wordpress/gutenberg-examples",
-        "wp-content/plugins/multiple-blocks": "~/Projects/plugins-wordpress/multiple-blocks",
+        "wp-content/plugins/blackbird-multiple-blocks": "~/Projects/plugins-wordpress/blackbird-multiple-blocks",
         "wp-content/mu-plugins": "./mu-plugins",
         "php.ini": "./php.ini"
     },
