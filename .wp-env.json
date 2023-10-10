@@ -1,5 +1,5 @@
 {
-    "core": "WordPress/WordPress#6.2.2",
+    "core": "WordPress/WordPress#6.3.1",
     "plugins": [
         "https://downloads.wordpress.org/plugin/theme-check.20230417.zip",
         "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.1.zip",
@@ -12,12 +12,13 @@
         "wp-content/plugins/ucsc-custom-functionality": "~/Projects/plugins-wordpress/ucsc-custom-functionality",
         "wp-content/plugins/ucsc-gutenberg-blocks": "~/Projects/plugins-wordpress/ucsc-gutenberg-blocks",
         "wp-content/plugins/ucsc-content-blocks": "~/Projects/plugins-wordpress/ucsc-content-blocks",
+        "wp-content/plugins/formidable-forms": "~/Projects/plugins-wordpress/formidable-forms",
         "wp-content/mu-plugins": "./mu-plugins",
-        "php.ini": "./php.ini"
+        "php.ini": "./php.ini",
+        ".htaccess": ".htaccess"
     },
     "env": {
         "development": {
-            ".htaccess": ".htaccess",
             "themes": [
                 "~/Projects/themes-wordpress/ucsc-2022"
             ]
