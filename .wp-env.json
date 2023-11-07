@@ -32,6 +32,6 @@
         "WP_UPLOAD_MAX_FILESIZE": "20M",
         "WP_ALLOW_MULTISITE": "true",
         "WP_ENVIRONMENT_TYPE": "local",
-        "WP_DEBUG_DISPLAY": false
+        "WP_DEBUG_DISPLAY": true
     }
 }
