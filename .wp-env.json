@@ -13,6 +13,7 @@
         "wp-content/plugins/ucsc-content-blocks": "~/Projects/plugins-wordpress/ucsc-content-blocks",
         "wp-content/plugins/ucsc-service-blocks": "~/Projects/plugins-wordpress/ucsc-service-blocks",
         "wp-content/plugins/ucsc-gutenberg-blocks": "~/Projects/plugins-wordpress/ucsc-gutenberg-blocks",
+        "wp-content/plugins/co-authors-plus": "~/Projects/plugins-wordpress/co-authors-plus",
         "wp-content/mu-plugins": "./mu-plugins",
         "php.ini": "./php.ini",
         ".htaccess": ".htaccess"
