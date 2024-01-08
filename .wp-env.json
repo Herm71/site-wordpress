@@ -1,9 +1,9 @@
 {
-    "core": "WordPress/WordPress#6.4.1",
+    "core": "WordPress/WordPress#6.4.2",
     "plugins": [
-        "https://downloads.wordpress.org/plugin/theme-check.20230417.zip",
+        "https://downloads.wordpress.org/plugin/theme-check.20231220.zip",
         "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.1.zip",
-        "https://downloads.wordpress.org/plugin/user-switching.1.7.0.zip",
+        "https://downloads.wordpress.org/plugin/user-switching.1.7.2.zip",
         "https://downloads.wordpress.org/plugin/akismet.5.2.zip"
     ],
     "mappings": {
@@ -16,7 +16,7 @@
         "wp-content/plugins/co-authors-plus": "~/Projects/plugins-wordpress/co-authors-plus",
         "wp-content/mu-plugins": "./mu-plugins",
         "php.ini": "./php.ini",
-        ".htaccess": ".htaccess"
+        ".htaccess": "./.htaccess"
     },
     "env": {
         "development": {
