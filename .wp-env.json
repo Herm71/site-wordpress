@@ -4,7 +4,8 @@
         "https://downloads.wordpress.org/plugin/theme-check.20231220.zip",
         "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.2.zip",
         "https://downloads.wordpress.org/plugin/user-switching.1.7.3.zip",
-        "https://downloads.wordpress.org/plugin/akismet.5.3.2.zip"
+        "https://downloads.wordpress.org/plugin/akismet.5.3.2.zip",
+        "https://downloads.wordpress.org/plugin/icon-block.1.8.0.zip"
     ],
     "mappings": {
         "wp-content/plugins": "./plugins",
