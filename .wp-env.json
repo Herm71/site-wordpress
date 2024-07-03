@@ -1,5 +1,5 @@
 {
-	"core": null,
+	"core": "WordPress/WordPress",
 	"plugins": [
 		"https://downloads.wordpress.org/plugin/theme-check.20231220.zip",
 		"https://downloads.wordpress.org/plugin/wordpress-importer.0.8.2.zip",
