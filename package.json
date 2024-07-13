@@ -9,7 +9,8 @@
 				"wp-env:update": "wp-env start --update",
         "wp-env:stop": "wp-env stop",
         "wp-env:clean": "wp-env clean",
-        "wp-env:destroy": "wp-env destroy"
+				"wp-env:destroy": "wp-env destroy",
+				"regenerate-thumbnails": "wp-env run cli wp media regenerate --yes"
     },
     "keywords": [
         "wordpress"
